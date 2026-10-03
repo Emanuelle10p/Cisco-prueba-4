@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendo a sumar - MiniAcad</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/responsivo.css">
+</head>
+<body>
+
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="main-header">
+    <div class="header-container">
+      <a href="../index.html" class="logo">MiniAcad</a>
+      <nav aria-label="Principal">
+        <ul class="nav-links">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="sumar.html" aria-current="page">Sumar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="container">
+    <h1>Curso: Aprendo a sumar</h1>
+
+    <article class="lesson">
+      <h2>Lección 1: ¿Qué es sumar?</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/oEX1yid337c" title="Video explicativo sobre qué es sumar" allowfullscreen></iframe>
+      </div>
+      <p>Sumar es juntar dos o más cosas para saber cuántas hay en total. Si tienes 2 manzanas y juntas 3 manzanas más, en total tienes 5 manzanas.</p>
+    </article>
+
+    <article class="lesson">
+      <h2>Lección 2: Sumas hasta 10</h2>
+      <p>Usamos los dedos de las manos para contar del 1 al 10. Si sumas 5 dedos de una mano y 5 de la otra, obtienes 10 en total.</p>
+    </article>
+
+    <article class="lesson">
+      <h2>Lección 3: Sumas con dibujos</h2>
+      <p>Mira tres estrellas ★★★ e imagínales dos estrellas más ★★. Si las cuentas todas juntas, el resultado es 5 estrellas.</p>
+    </article>
+
+    <section class="quiz-section">
+      <h2>Mini Quiz</h2>
+      <fieldset>
+        <legend>¿Cuánto es 2 + 3?</legend>
+        <label><input type="radio" name="q1" value="4"> 4</label><br>
+        <label><input type="radio" name="q1" value="5" data-correct="true"> 5</label><br>
+        <label><input type="radio" name="q1" value="6"> 6</label>
+      </fieldset>
+      <div id="quiz-result" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>MiniAcad — Cursos infantiles</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

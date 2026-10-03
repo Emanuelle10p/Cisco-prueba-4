@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendo a amarrarme los zapatos - MiniAcad</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/responsivo.css">
+</head>
+<body>
+
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="main-header">
+    <div class="header-container">
+      <a href="../index.html" class="logo">MiniAcad</a>
+      <nav aria-label="Principal">
+        <ul class="nav-links">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="zapatos.html" aria-current="page">Zapatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="container">
+    <h1>Curso: Aprendo a amarrarme los zapatos</h1>
+
+    <article class="lesson">
+      <h2>Lección 1: Partes del cordón</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/2M3S1mH7mXk" title="Video de cómo atar cordones" allowfullscreen></iframe>
+      </div>
+      <p>Un cordón tiene dos extremos largos. Primero debes estirarlos bien antes de empezar a cruzarlos.</p>
+    </article>
+
+    <article class="lesson">
+      <h2>Lección 2: El nudo base</h2>
+      <p>Cruza los dos cordones formando una 'X'. Pasa uno de los extremos por debajo de la 'X' y jala con fuerza hacia los lados.</p>
+    </article>
+
+    <article class="lesson">
+      <h2>Lección 3: Las dos orejas de conejo</h2>
+      <p>Haz un lazo doblado con cada cordón para crear dos 'orejas de conejo'. Cruza las dos orejas en una nueva 'X', pasa una por debajo y jala suavemente.</p>
+    </article>
+
+    <section class="quiz-section">
+      <h2>Mini Quiz</h2>
+      <fieldset>
+        <legend>¿Qué forma hacemos con los cordones en el primer paso?</legend>
+        <label><input type="radio" name="q3" value="cuadrado"> Un cuadrado</label><br>
+        <label><input type="radio" name="q3" value="x" data-correct="true"> Una 'X'</label><br>
+        <label><input type="radio" name="q3" value="circulo"> Un círculo</label>
+      </fieldset>
+      <div id="quiz-result" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>MiniAcad — Cursos infantiles</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

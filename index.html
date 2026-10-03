@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiniAcad - Cursos cortos para niños</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="main-header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <span aria-hidden="true">★</span> MiniAcad
+      </a>
+      <nav aria-label="Principal">
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
+          <li><a href="cursos/sumar.html">Sumar</a></li>
+          <li><a href="cursos/dividir.html">Dividir</a></li>
+          <li><a href="cursos/zapatos.html">Zapatos</a></li>
+          <li><a href="cursos/internet-seguro.html">Internet seguro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Aprende jugando con MiniAcad</h1>
+        <p>Cursos cortos con videos, dibujos y lecturas fáciles. Para niñas y niños menores de 10 años.</p>
+        <a href="#catalogo" class="btn-primary">Ver los cursos</a>
+      </div>
+    </section>
+
+    <section id="catalogo" class="catalog-section">
+      <div class="container">
+        <h2>Elige tu curso</h2>
+        <p class="section-desc">Cada curso tiene tres lecciones y un mini quiz al final.</p>
+        
+        <div class="courses-grid">
+          <article class="course-card">
+            <div class="card-body">
+              <h3>Aprendo a sumar</h3>
+              <p>Junta manzanas y estrellas para aprender a sumar hasta 10.</p>
+              <span class="badge">3 lecciones</span>
+              <a href="cursos/sumar.html" class="btn-card">Empezar el curso</a>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <div class="card-body">
+              <h3>Aprendo a dividir</h3>
+              <p>Reparte galletas y pelotas en partes iguales.</p>
+              <span class="badge">3 lecciones</span>
+              <a href="cursos/dividir.html" class="btn-card">Empezar el curso</a>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <div class="card-body">
+              <h3>Aprendo a amarrarme los zapatos</h3>
+              <p>Aprende el nudo con las orejas de conejo paso a paso.</p>
+              <span class="badge">3 lecciones</span>
+              <a href="cursos/zapatos.html" class="btn-card">Empezar el curso</a>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <div class="card-body">
+              <h3>Me cuido en internet</h3>
+              <p>Tres reglas fáciles para cuidarte cuando usas internet.</p>
+              <span class="badge">3 lecciones</span>
+              <a href="cursos/internet-seguro.html" class="btn-card">Empezar el curso</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container">
+        <h2>Preguntas de mamás, papás y maestros</h2>
+        <div class="accordion">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq1">
+            ¿Es necesario crear una cuenta?
+          </button>
+          <div id="faq1" class="accordion-panel" hidden>
+            <p>No. MiniAcad no pide registro ni inicio de sesión.</p>
+          </div>
+
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq2">
+            ¿Guardan información de los niños?
+          </button>
+          <div id="faq2" class="accordion-panel" hidden>
+            <p>No. El sitio no guarda datos. Cada visita empieza desde cero.</p>
+          </div>
+
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq3">
+            ¿Es accesible con lectores de pantalla?
+          </button>
+          <div id="faq3" class="accordion-panel" hidden>
+            <p>Sí. El sitio está hecho para usarse con NVDA, JAWS, VoiceOver y TalkBack, y también solo con el teclado. Use la tecla Tab para moverse y Enter para abrir enlaces y botones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <p>MiniAcad: cursos cortos para niñas y niños menores de 10 años.</p>
+      <nav aria-label="Pie de página">
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="IA.html">Cómo usé la inteligencia artificial</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

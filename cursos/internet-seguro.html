@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Me cuido en internet - MiniAcad</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/responsivo.css">
+</head>
+<body>
+
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="main-header">
+    <div class="header-container">
+      <a href="../index.html" class="logo">MiniAcad</a>
+      <nav aria-label="Principal">
+        <ul class="nav-links">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="internet-seguro.html" aria-current="page">Internet Seguro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="container">
+    <h1>Curso: Me cuido en internet</h1>
+
+    <article class="lesson">
+      <h2>Lección 1: Mis datos son míos</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ylE42B0gE9E" title="Video sobre seguridad en internet para niños" allowfullscreen></iframe>
+      </div>
+      <p>Tu nombre completo, dirección, colegio y contraseñas son datos secretos. Nunca debes compartirlos en juegos ni páginas web.</p>
+    </article>
+
+    <article class="lesson">
+      <h2>Lección 2: No hablo con desconocidos</h2>
+      <p>Si alguien que no conoces te escribe o intenta hablarte en un juego online, no le respondas. Cierra el juego de inmediato.</p>
+    </article>
+
+    <article class="lesson">
+      <h2>Lección 3: Le cuento a un adulto</h2>
+      <p>Si ves algo feo, raro o que te asuste en la pantalla, avísale siempre a tu mamá, papá o maestro de confianza.</p>
+    </article>
+
+    <section class="quiz-section">
+      <h2>Mini Quiz</h2>
+      <fieldset>
+        <legend>¿Qué debes hacer si ves algo que te asusta en la pantalla?</legend>
+        <label><input type="radio" name="q4" value="callar"> Guardar el secreto</label><br>
+        <label><input type="radio" name="q4" value="adulto" data-correct="true"> Contarle a un adulto de confianza</label><br>
+        <label><input type="radio" name="q4" value="desconocido"> Contarle a un desconocido</label>
+      </fieldset>
+      <div id="quiz-result" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p>MiniAcad — Cursos infantiles</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
